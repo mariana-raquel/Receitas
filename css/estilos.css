@@ -2,7 +2,6 @@
     --azul: powderblue;
     --lilas: #c688d7;
     --roxo: #5e40bf;
-    --rosa: hotpink;
     --branco:#ffffff;
     --preto: #141414 ;
 }
@@ -36,10 +35,6 @@ header nav a {
     margin-right: 15px;
     font-size: 30px;
     color: var(--roxo);
-}
-
-header nav a:hover {
-    color: var(--preto);
 }
 
 .container .receitas {
