@@ -13,7 +13,8 @@
     }
     
     h2 {
-        display: inline;
+        display: flex;
+        flex-direction: row;
     }
 
     .container .receitas li { 
@@ -36,7 +37,8 @@
     }
     
     h2 {
-        display: inline;
+        display: flex;
+        flex-direction: row;
     }
 
     .container .receitas li { 
@@ -52,7 +54,8 @@
     }
     
     h2 {
-        display: inline;
+        display: flex;
+        flex-direction: row;
     }
     
     .container .receitas {
