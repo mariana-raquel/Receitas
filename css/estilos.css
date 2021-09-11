@@ -45,24 +45,15 @@ header nav a:hover {
 .container .receitas {
     display: flex;
     border: 5px solid var(--azul);
+    border-radius: 20px;
     flex-direction: column;
     align-items:center;
     justify-content: center;
     padding: 10px;
-    width: 700px;
+    max-width: 700px;
     margin: 15px 300px;
 }
 
 .container .receitas li {
     margin: 3px 20px;
-}
-
-.receitas:hover {
-    background-color: var(--rosa);
-    height: 60%;
-    width: 60%;
-    margin: 10px 250px;
-    padding: 20px 15px;
-    font-size: 20px;
-    
 }
