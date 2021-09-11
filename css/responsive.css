@@ -1,4 +1,4 @@
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 300px) {
     header .logo {
         color: var(--roxo);
         font-family: 'Times New Roman', Times, serif;
@@ -11,8 +11,24 @@
         font-size: 15px;
     }
     
-    header nav a:hover {
-        color: var(--preto);
+    .container .receitas {
+        border: 3px solid var(--azul);
+        max-width: 95%;
+        margin: 10px 5%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    header .logo {
+        color: var(--roxo);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+        margin-left: 5%;
+    }
+    
+    header nav a {
+        margin-right: 27px;
+        font-size: 15px;
     }
     
     .container .receitas {
@@ -35,10 +51,6 @@
         font-size: 15px;
     }
     
-    header nav a:hover {
-        color: var(--preto);
-    }
-    
     .container .receitas {
         border: 3px solid var(--azul);
         max-width: 85%;
@@ -59,14 +71,9 @@
         font-size: 15px;
     }
     
-    header nav a:hover {
-        color: var(--preto);
-    }
-    
     .container .receitas {
         border: 3px solid var(--azul);
         max-width: 75%;
         margin: 10px 25%;
     }
-
 }
