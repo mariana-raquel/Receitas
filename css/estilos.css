@@ -30,6 +30,10 @@ header .logo {
     margin-left: 450px;
 }
 
+h2 {
+    display: inline-flex;
+}
+
 .container .receitas {
     display: flex;
     border: 5px solid var(--azul);
