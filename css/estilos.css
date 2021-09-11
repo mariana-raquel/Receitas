@@ -1,0 +1,68 @@
+:root {
+    --azul: powderblue;
+    --lilas: #c688d7;
+    --roxo: #5e40bf;
+    --rosa: hotpink;
+    --branco:#ffffff;
+    --preto: #141414 ;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--lilas);
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    color: var(--roxo);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-left: 450px;
+}
+
+header nav a {
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 30px;
+    color: var(--roxo);
+}
+
+header nav a:hover {
+    color: var(--preto);
+}
+
+.container .receitas {
+    display: flex;
+    border: 5px solid var(--azul);
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding: 10px;
+    width: 700px;
+    margin: 15px 300px;
+}
+
+.container .receitas li {
+    margin: 3px 20px;
+}
+
+.receitas:hover {
+    background-color: var(--rosa);
+    height: 60%;
+    width: 60%;
+    margin: 10px 250px;
+    padding: 20px 15px;
+    font-size: 20px;
+    
+}
