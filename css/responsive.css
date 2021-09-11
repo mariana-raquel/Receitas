@@ -13,7 +13,7 @@
         padding-left: 20px;
     }
 
-    .container .receitas .titulo h3 {
+    .container .receitas .titulo, h3 {
         display: flex;
         flex-direction: row;
     }
@@ -38,7 +38,7 @@
         padding-left: 20px;
     }
 
-    .container .receitas .titulo h3 {
+    .container .receitas .titulo, h3 {
         display: flex;
         flex-direction: row;
     }
@@ -62,7 +62,7 @@
         margin: 10px 5%;
     }
 
-    .container .receitas .titulo h3 {
+    .container .receitas .titulo, h3 {
         display: flex;
         flex-direction: row;
     }
