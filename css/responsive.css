@@ -1,20 +1,48 @@
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 350px) {
     header .logo {
         color: var(--roxo);
         font-family: 'Times New Roman', Times, serif;
-        font-size: 30px;
-        margin-left: 5%;
-    }
-    
-    header nav a {
-        margin-right: 27px;
-        font-size: 15px;
+        font-size: 35px;
     }
     
     .container .receitas {
         border: 3px solid var(--azul);
-        max-width: 95%;
-        margin: 10px 5%;
+        align-items: flex-start;
+        max-width: 100%;
+        margin: 10px;
+        padding-left: 20px;
+    }
+
+    .container .receitas .titulo {
+        display: flex;
+        flex-direction: row;
+    }
+    .container .receitas li { 
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width: 350px) {
+    header .logo {
+        color: var(--roxo);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 35px;
+    }
+    
+    .container .receitas {
+        border: 3px solid var(--azul);
+        align-items: flex-start;
+        max-width: 100%;
+        margin: 10px;
+        padding-left: 20px;
+    }
+
+    .container .receitas .titulo {
+        display: flex;
+        flex-direction: row;
+    }
+    .container .receitas li { 
+        margin-left: 20px;
     }
 }
 
@@ -22,13 +50,8 @@
     header .logo {
         color: var(--roxo);
         font-family: 'Times New Roman', Times, serif;
-        font-size: 30px;
+        font-size: 35px;
         margin-left: 5%;
-    }
-    
-    header nav a {
-        margin-right: 27px;
-        font-size: 15px;
     }
     
     .container .receitas {
@@ -46,11 +69,6 @@
         margin-left: 15%;
     }
     
-    header nav a {
-        margin-right: 27px;
-        font-size: 15px;
-    }
-    
     .container .receitas {
         border: 3px solid var(--azul);
         max-width: 85%;
@@ -64,11 +82,6 @@
         font-family: 'Times New Roman', Times, serif;
         font-size: 50px;
         margin-left: 25%;
-    }
-    
-    header nav a {
-        margin-right: 27px;
-        font-size: 15px;
     }
     
     .container .receitas {

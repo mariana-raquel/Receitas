@@ -30,13 +30,6 @@ header .logo {
     margin-left: 450px;
 }
 
-header nav a {
-    text-decoration: none;
-    margin-right: 15px;
-    font-size: 30px;
-    color: var(--roxo);
-}
-
 .container .receitas {
     display: flex;
     border: 5px solid var(--azul);
